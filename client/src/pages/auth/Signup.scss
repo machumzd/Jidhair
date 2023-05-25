@@ -1,0 +1,39 @@
+.title{
+    font-size: 2rem;
+    font-weight:900;
+    font-family:Poppins,sans-serif;
+    span{
+        font-size: 2rem;
+        font-weight: 900;
+    }
+}
+.input-form{
+    form{
+        display: flex;
+        row-gap: 0.8em;
+    flex-direction: column;
+    input{
+        border:3px solid #004050;
+        font-size: 1rem;
+        padding:10px;
+        border-radius: 12px;
+    }
+        button{
+            padding: 0.5em 6rem 0.5em 6rem;
+            color: white;
+            background-color: #004050;
+            border-radius: 20px;
+            font-size: 1.4rem;
+            border:0;
+    }
+    }
+    .input-form_text{
+        font-size: 1rem;
+        font-weight: 500;
+        span{
+            font-weight: 800;
+            color:#004050;
+        }
+    }
+
+}

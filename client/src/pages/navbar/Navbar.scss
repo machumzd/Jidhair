@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "logoFont";
+    src: url("../../../public/fonts/Aclonica-Regular.ttf");
+}
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    background-color: #004050;
+    .navbar_left {
+        cursor: pointer;
+
+        .navbar_title {
+            color: white;
+            font-family: "logoFont";
+
+            span {
+                font-size: .8rem;
+            }
+        }
+    }
+
+    .navbar_right {
+        .navbar_right-button1 {
+            color: white;
+            background-color: #06c05e;
+            transition: background-color 0.3s ease-in-out;
+            border-radius: 22px;
+            border: 0;
+        }
+
+        .navbar_right-button1:hover {
+            color: #004050;
+            background-color: white;
+
+        }
+
+        .navbar_right-button2 {
+            color: #004050;
+            background-color: white;
+            transition: background-color 0.3s ease-in-out;
+            border-radius: 22px;
+            border: 0;
+        }
+
+        .navbar_right-button2:hover {
+            color: white;
+            background-color: #06c05e;
+        }
+
+    }
+}
