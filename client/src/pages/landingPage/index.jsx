@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./LandingPage.scss";
-import EmpManButtons from "../../components/Buttons/EmpManButtons";
-import Signup from "../auth/Signup";
+import EmpManButtons from "Components/Buttons";
+import Signup from "Pages/Signup";
 
 const LandingPage = () => {
   const [selectedPosition, setSelectedPostition] = useState(null);
